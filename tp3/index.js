@@ -154,3 +154,5 @@ app.get('/operaciones' , (req , res)=>{
         }
     }
 })
+
+server.on('error', error => console.log(`Server error: ${error}`));
